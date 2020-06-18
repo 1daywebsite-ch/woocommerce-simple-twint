@@ -17,13 +17,21 @@ Da gemäss des E-Commerce Stimmungsbarometer der Post (Link: https://e-commerce.
 
 ## Wie funktioniert das Plugin? ###
 
-### Kassenseite zeigt neue Zahlungsmöglichkeit Twint###
+### Kassenseite zeigt neue Zahlungsmöglichkeit Twint ###
 
 Die Zahlungsmöglichkeit mit dem Titel "Bezahlen Sie bequem mit Twint" mit Instruktionen ist aktiv:
 
 ![simple-twint-screenshot-1](simple-twint-screenshot-1.jpg)
 
-### Thank you page & customer email ###
+### Die Bestätigungsseite (Thank You page) ###
+
+Der obere Teil der angezeigten Bestellbestätigung sind wie üblich aus:
+
+![simple-twint-screenshot-2](simple-twint-screenshot-2.jpg)
+
+Weiter unten erscheinen die Instruktionen für Twint mit dem zu bezahlenden Betrag sowie der QR-Code (nur der obere Teil angezeigt):
+
+![simple-twint-screenshot-3](simple-twint-screenshot-3.jpg)
 
 Adds the installment plan with the number of installments and the monthly amount on the thank you page after the order details.
 
