@@ -4,9 +4,9 @@
 
 ### Ermöglicht eine einfache (und kostenlose) Möglichkeit Twint in einem WooCommerce-Shop zu benützen ###
 
-Aktuell gibt es nur Plugins für Twint zum Kaufen, ab 99 Franken im Jahr (falls man Updates auch nach einem Jahr möchte). Wir finden, dass gerade kleine Shops eine quelloffene Lösung haben sollten, die nichts kostet und auch wenig Wartung (keine technischen Probleme punkto Verbindung zwischen Twint und dem Shop) benötigen.
+Aktuell gibt es nur Plugins für Twint zum Kaufen, ab 99 Franken bis 200 Franken im Jahr (falls man Updates auch nach einem Jahr möchte). Wir finden, dass gerade kleine Shops eine quelloffene Lösung haben sollten, die nichts kostet und auch wenig Wartung (keine technischen Probleme punkto Verbindung zwischen Twint und dem Shop) benötigt.
 
-Sie hat jedoch zwei grosse Nachteile gegenüber den Lösungen, die gekauft werden müssen:
+Sie hat jedoch zwei grosse Nachteile gegenüber den Lösungen, die gekauft werden können:
 
 - der QR-Code zum Einlesen muss als Bild (JPEG, PNG usw.) in den Shop raufgeladen werden und anschliessend das Link mit diesem Plugin verknüpft werden. Den QR-Code kann man direkt aus dem Twint-Konto (muss ein Geschäftskonto sein) bestellen. Diese Broschüre von Twint erklärt wie: https://www.twint.ch/content/uploads/2019/10/Anleitung-TWINT-QR-Code-Sticker-bestellen.pdf.
 - es gibt keine automatische Rückmeldung der eingegangen Zahlung direkt im Shop, d.h. der Shop-Manager erhält einfach die SMS oder E-Mail-Benachrichtigung im Twint-Konto und kann anschliessend von Hand in WooCommerce die Bestellung auf fertig gestellt setzen.
