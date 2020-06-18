@@ -22,10 +22,8 @@ Da gemäss des E-Commerce Stimmungsbarometer der Post (Link: https://e-commerce.
 Die Zahlungsmöglichkeit mit dem Titel "Bezahlen Sie bequem mit Twint" mit Instruktionen ist aktiv:
 
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+  ![simple-twint-screenshot-1](simple-twint-screenshot-1.jpg)
 </p
-
-<p align="center">![simple-twint-screenshot-1](simple-twint-screenshot-1.jpg)</p>
 
 ### Thank you page & customer email ###
 
