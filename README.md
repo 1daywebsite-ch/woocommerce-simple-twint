@@ -2,11 +2,13 @@
 
 ## Beschreibung ##
 
-### Adds a simple installment payment gateway ###
+### Ermöglicht eine einfache (und kostenlose) Möglichkeit Twint in einem WooCommerce-Shop zu benützen ###
 
-The following screenshots illustrate what this plugin can do:
+Aktuell gibt es nur Plugins für Twint zum Kaufen, ab 99 Franken im Jahr (falls man Updates auch nach einem Jahr möchte). Wir finden, dass gerade kleine Shops eine quelloffene Lösung haben sollten, die nichts kostet.
 
-### Checkout page with new payment option ###
+Sie 
+
+### Kassenseite zeigt neue Zahlungsmöglichkeit ###
 
 The checkout shows the installment payment gateway and calculates the monthly rates based on the payment gateway settings and the cart total. Also adds a handling fee.
 
