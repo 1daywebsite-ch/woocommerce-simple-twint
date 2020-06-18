@@ -6,7 +6,12 @@
 
 Aktuell gibt es nur Plugins für Twint zum Kaufen, ab 99 Franken im Jahr (falls man Updates auch nach einem Jahr möchte). Wir finden, dass gerade kleine Shops eine quelloffene Lösung haben sollten, die nichts kostet.
 
-Sie 
+Sie hat aber zwei grosse Nachteile gegenüber den Lösungen, die kosten:
+
+- der QR-Code zum Einlesen muss als Bild (JPEG, PNG usw.) in den Shop raufgeladen werden und anschliessend das Link mit diesem Plugin verknüpft werden.
+- es gibt keine automatische Rückmeldung der eingegangen Zahlung direkt im Shop, d.h. der Shop-Manager erhält einfach die SMS oder E-Mail-Benachrichtigung im Twint-Konto und kann anschliessend von Hand in WooCommerce die Bestellung auf fertig gestellt setzen.
+
+Da gemäss des E-Commerce Stimmungsbarometer der Post (Link: https://e-commerce.post.ch/download/de/E-Commerce_Stimmungsbarometer_2019.pdf) etwa 23 % der Nutzer von Online-Shops in der Schweiz mobile Zahlungen benützen (dazu gehören Twint, Apple Pay, Google Pay usw.), reicht diese Lösung. Am beliebtesten bleiben als Zahlungsmittel online die Kreditkarte mit 76 % und Zahlung auf Rechnung mit 75 %.
 
 ### Kassenseite zeigt neue Zahlungsmöglichkeit ###
 
