@@ -33,21 +33,14 @@ Weiter unten erscheinen die Instruktionen für Twint mit dem zu bezahlenden Betr
 
 ![simple-twint-screenshot-3](simple-twint-screenshot-3.jpg)
 
-Adds the installment plan with the number of installments and the monthly amount on the thank you page after the order details.
+Der Kundin kann jetzt den QR-Code einlesen und den korrekten Betrag eingeben und die Zahlung auslösen.
 
-![simple-installation-screenshot-2](simple-installation-screenshot-2.jpg)
+### Was muss der Shop-Manager machen? ###
 
-Adds the installment plan to the admin and customer email, with the number of installments and monthly amount after the order details.
+Im Twint-Konto des Shops sollte automatisch die Benachrichtigung per SMS und/oder E-Mail bei Zahlungseingang reinkommen. Aufgrund der Infos der Benachrichtigung (Name, Betrag, Zeit) sollte es kein Problem sein, die Bestellung auf der Seite "Bestellungen" zu finden und auf den Status "Fertig gestellt" zu setzen. So wird eine neue E-Mail an den Kunden ausgelöst und die Lieferung der Bestellung kann vorgenommen werden (allenfalls noch vorher mit Eingabe der Sendungsnummer, siehe anderes Plugin hier).
 
-![simple-installation-screenshot-3](simple-installation-screenshot-3.jpg)
 
-### Admin orders page ###
-
-Adds the installment plan with number of installments and monthly amount to the admin screen.
-
-![simple-installation-screenshot-4](simple-installation-screenshot-4.jpg)
-
-### Payment Gateway settings page ###
+### Einstellungsseite von WooCommerce Simple Twing ###
 
 The screenshot below shows all available options:
 
