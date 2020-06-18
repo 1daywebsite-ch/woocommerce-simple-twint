@@ -42,24 +42,21 @@ Im Twint-Konto des Shops sollte automatisch die Benachrichtigung per SMS und/ode
 
 ### Einstellungsseite von WooCommerce Simple Twing ###
 
-The screenshot below shows all available options:
+Das Bildschirmfoto unten zeigt alle möglichen Optionen:
 
-- You can set a general customer message before the installment plan info, which is the number of monthly rates and the monthly rate amount.
-- You can set a minimum cart total as a threshold for this payment gateway to show up on the checkout.
-- You can activiate this payment gateway for guests. By default only customers who are logged in and who have one completeted order may see this payment gateway.
-- You can set the number of monthly installments.
-- You can set an extra fee for the handling of installments.
-- By default the order status is in waiting.
-- The admin notice by default is hidden.
+- Sie können den Titel und die Nachricht an den Kunden (Instruktionen) setzen;
+- Wichtig: nachdem Sie den Scan (also das Bild) Ihres QR-Codes (den Sie per Post von Twint erhalten) in den Shop geladen haben, gehen Sie zu meden und kopieren das komplette Link zum Bild und fügen Sie in das Feld für "Link zu QR-Code image" ein.
+- Der Bestellstatus ist automatisch auf "In Wartestellung" gestellt.
+- Die Notiz an den Shop ist voreingestellt deaktiviert.
 
-![simple-installation-screenshot-5](simple-installation-screenshot-5.jpg)
+![simple-twint-screenshot-4](simple-twint-screenshot-4.jpg)
 
 ## Installation ##
-Download ZIP file and unpack the plugin directory.
+ZIP-Datei unterladen und das Plugin-Verzeichnis auspacken.
 
-You can install it by placing it directly into the `/wp-content/plugins/`directory of your WordPress installation and then activate it from the "Plugins" screen, or you can go to "Plugins" - "Install" - "Upload Plugin" and upload it, and then activate it.
+Sie können Sie es direkt in das Verzeichnis `/wp-content/plugins/`Ihrer WordPress-Installation platzieren und dann von der Seite "Plugins" aktivieren, oder Sie können dort zu "Plugins" - "Installieren" - "Plugin Raufladen" gehen und so das Plugin raufladen und anschliessend aktivieren.
 
-Go then to "WooCommerce" - "Settings" and activate this payment option under "Checkout".
+Gehen Sie dann zu "WooCommerce" - "Einstellungen" and aktivieren Sie diese Zahlungsmöglichkeit unter dem Reiter (Tab) "Kasse".
 
 ## Changelog ##
 
