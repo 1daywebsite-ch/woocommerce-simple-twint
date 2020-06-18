@@ -19,9 +19,9 @@ Da gemäss des E-Commerce Stimmungsbarometer der Post (Link: https://e-commerce.
 
 ### Kassenseite zeigt neue Zahlungsmöglichkeit Twint###
 
-The checkout shows the installment payment gateway and calculates the monthly rates based on the payment gateway settings and the cart total. Also adds a handling fee.
+Die Zahlungsmöglichkeit mit dem Titel "Bezahlen Sie bequem mit Twint" mit Instruktionen ist aktiv:
 
-![simple-installation-screenshot-1](simple-installation-screenshot-1.jpg)
+![simple-twint-screenshot-1](simple-twint-screenshot-1.jpg)
 
 ### Thank you page & customer email ###
 
