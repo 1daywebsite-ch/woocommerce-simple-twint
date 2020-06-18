@@ -6,11 +6,11 @@
  * Version:           		1.0.0
  * Author:            		AFB
  * Author URI:        		https://1daywebsite.ch
- * Tested up to:			5.4.1 
+  Tested up to:			5.4.1 
  * WC requires at least:	3.0
- * WC tested up to:			4.2
+ * WC tested up to:		4.2
  * Text Domain:       		woocommerce-simple-twint-gateway
- * Domain Path: 			/languages
+ * Domain Path: 		/languages
  * License:           		GPL-2.0+
  * License URI:       		http://www.gnu.org/licenses/gpl-2.0.txt
  */
