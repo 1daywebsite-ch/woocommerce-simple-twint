@@ -151,7 +151,7 @@ class WC_Simple_Twint_Gateway extends WC_Payment_Gateway {
 			echo '<h3>' . __('Bitte überweisen Sie den folgenden Betrag:', 'woocommerce-simple-twint-gateway') . '</h3>';
 			echo '<p><b>' . $simple_twint_currency. ' ' . $simple_twint_ordertotal . '</b></p>';
 			if ( $this->qr_code_img ) {
-				echo '<img src="'. $this->qr_code_img . '">';
+				echo '<img style="width:500px;display:block;margin:0 auto;" src="'. $this->qr_code_img . '">';
 			}	
 		}
 	}	
