@@ -21,7 +21,7 @@ Da gemäss des E-Commerce Stimmungsbarometer der Post (Link: https://e-commerce.
 
 Die Zahlungsmöglichkeit mit dem Titel "Bezahlen Sie bequem mit Twint" mit Instruktionen ist aktiv:
 
-![simple-twint-screenshot-1](simple-twint-screenshot-1.jpg)
+![simple-twint-screenshot-woocommerce](simple-twint-screenshot-woocommerce.jpg)
 
 ### Die Bestätigungsseite (Thank You page) ###
 
