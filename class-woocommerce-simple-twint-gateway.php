@@ -143,9 +143,9 @@ class WC_Simple_Twint_Gateway extends WC_Payment_Gateway {
 		<?php
 		$simple_twint_currency = get_woocommerce_currency();
 		$simple_twint_ordertotal = max( 0, apply_filters( 'woocommerce_calculated_total', round( WC()->cart->cart_contents_total + WC()->cart->fee_total + WC()->cart->tax_total, WC()->cart->dp ), WC()->cart ) );
-		echo '<h3 style="text-align:center;">' . __('Bitte überweisen Sie den folgenden Betrag: ', 'woocommerce-simple-twint-gateway') . $simple_twint_currency. ' ' . $simple_twint_ordertotal . '</h3>';
+		echo '<h3 class="simple_twint_h3"">' . __('Bitte überweisen Sie den folgenden Betrag: ', 'woocommerce-simple-twint-gateway') . $simple_twint_currency. ' ' . $simple_twint_ordertotal . '</h3>';
 		if ( $this->qr_code_img ) {
-			echo '<img style="width:500px;display:block;margin:0 auto;width:350px;margin-bottom:25px;" src="'. $this->qr_code_img . '">';
+			echo '<img class="simple_twint_image" src="'. $this->qr_code_img . '">';
 		}
 		?>
 		<div class="modal-container">
@@ -154,7 +154,7 @@ class WC_Simple_Twint_Gateway extends WC_Payment_Gateway {
 		  <div class="modal-backdrop">
 			<div class="modal-content">
 			  <label class="modal-close" for="modal-toggle">x</label>
-				<?php echo '<img class="checkout-twint-img" style="display: block;width: 350px; margin: 0 auto;" src="'. $this->twintinfo . '">';
+				<?php echo '<img class="simple_twint_image" src="'. $this->twintinfo . '">';
 					?>
 			</div>
 		  </div>
@@ -170,10 +170,10 @@ class WC_Simple_Twint_Gateway extends WC_Payment_Gateway {
 		if ( $order->get_payment_method() === 'simple_twint' ) {
 			$simple_twint_currency = $order->get_currency();
 			$simple_twint_ordertotal = $order->get_total();
-			echo '<h3 style="text-align:center;">' . __('Falls Sie die Twint-Zahlung noch nicht getätigt haben, überweisen Sie bitten den folgenden Betrag mit dem QR-Code unten:', 'woocommerce-simple-twint-gateway') . '</h3>';
-			echo '<h3 style="text-align:center;">' . $simple_twint_currency. ' ' . $simple_twint_ordertotal . '</h3>';
+			echo '<h3 class="simple_twint_h3">' . __('Falls Sie noch die Twint-Zahlung getätigt haben, überweisen Sie bitten den folgenden Betrag mit dem QR-Code unten:', 'woocommerce-simple-twint-gateway') . '</h3>';
+			echo '<h3 class="simple_twint_h3">' . $simple_twint_currency. ' ' . $simple_twint_ordertotal . '</h3>';
 			if ( $this->qr_code_img ) {
-				echo '<img style="width:500px;display:block;margin:0 auto;width: 350px;margin-bottom:25px;" src="'. $this->qr_code_img . '">';
+				echo '<img class="simple_twint_image" src="'. $this->qr_code_img . '">';
 			}
 			?>
 			<div class="modal-container">
@@ -182,7 +182,7 @@ class WC_Simple_Twint_Gateway extends WC_Payment_Gateway {
 			  <div class="modal-backdrop">
 				<div class="modal-content">
 				  <label class="modal-close" for="modal-toggle">x</label>
-					<?php echo '<img class="checkout-twint-img" style="display: block;width: 350px; margin: 0 auto;" src="'. $this->twintinfo . '">';
+					<?php echo '<img class="simple_twint_image" src="'. $this->twintinfo . '">';
 						?>
 				</div>
 			  </div>
