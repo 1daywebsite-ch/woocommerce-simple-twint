@@ -39,7 +39,6 @@ Die Kundin kann jetzt den QR-Code einlesen und den korrekten Betrag eingeben und
 
 Im Twint-Konto des Shops sollte automatisch die Benachrichtigung per SMS und/oder E-Mail bei Zahlungseingang reinkommen. Aufgrund der Infos der Benachrichtigung (Name, Betrag, Zeit) sollte es kein Problem sein, die Bestellung auf der Seite "Bestellungen" zu finden und auf den Status "Fertig gestellt" zu setzen. So wird eine neue E-Mail an die Kundin ausgelöst und die Lieferung der Bestellung kann vorgenommen werden (allenfalls noch vorher mit Eingabe der Sendungsnummer, siehe anderes Plugin hier).
 
-
 ### Einstellungsseite von WooCommerce Simple Twint ###
 
 Das Bildschirmfoto unten zeigt alle möglichen Optionen:
