@@ -1,1 +1,127 @@
+/* -------------------------------------------------------------------------------- */
+/*	Simple Twint Styling
+/* -------------------------------------------------------------------------------- */
+.simple_twint_h3 {
+	text-align: center;
+}
+.simple_twint_image {
+	display: block;
+	width: 350px;
+	margin: 0 auto;
+	margin-bottom:25px;
+}
+@media screen and (max-width: 768px) {
+	.simple_twint_image {
+		width: 100%;
+	}
+}
+/* -------------------------------------------------------------------------------- */
+/*	Twint Modal - WooCommerce Checkout & WooCommerce Thank You Page
+/* -------------------------------------------------------------------------------- */
+.payment_box.payment_method_simple_twint .modal-container, .woocommerce-order-received .modal-container {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+.woocommerce-checkout .modal-container button, .woocommerce-order-received .modal-container button {
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	padding: 5px 12px;
+	background-color: #e98973;
+	font-size: 16px;
+	border-radius: 6px;
+	transition: background 0.3s ease-in;
+}
+.payment_box.payment_method_simple_twint .modal-container .modal-backdrop, .woocommerce-order-received .modal-container .modal-backdrop {
+	height: 0;
+	width: 0;
+	opacity: 0;
+	overflow: hidden;
+	transition: opacity 0.2s ease-in;
+}
+.payment_box.payment_method_simple_twint .modal-container #modal-toggle, .woocommerce-order-received .modal-container #modal-toggle {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+.payment_box.payment_method_simple_twint .modal-container #modal-toggle:hover ~ button, .woocommerce-order-received .modal-container #modal-toggle:hover ~ button { 
+	background: #6e6d76;
+}
+.payment_box.payment_method_simple_twint .modal-container #modal-toggle:checked, .woocommerce-order-received .modal-container #modal-toggle:checked {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	opacity: 0;
+}
+.payment_box.payment_method_simple_twint .modal-container #modal-toggle:checked ~ .modal-backdrop, .woocommerce-order-received .modal-container #modal-toggle:checked ~ .modal-backdrop {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	pointer-events: none;
+	opacity: 1;
+}
+.payment_box.payment_method_simple_twint .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content, .woocommerce-order-received .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content {
+	background-color: #fff;
+	position: absolute;
+	left: calc(50% - 200px);
+	top: 12%;
+	border-radius: 4px;
+	z-index: 999;
+	pointer-events: auto;
+	cursor: auto;
+}
+@media (max-width: 400px) {
+	.payment_box.payment_method_simple_twint .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content, .woocommerce-order-received .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content { 
+	left: 0;
+	}
+}
+.payment_box.payment_method_simple_twint .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close, .woocommerce-order-received .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close {
+	color: #FFF;
+	position: absolute;
+	right: 0;
+	top: 0px;
+	padding-top: 0px;
+	background: #e98973;
+	font-size: 28px;
+	line-height: 40px;
+	width: 45px;
+	height: 45px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+.payment_box.payment_method_simple_twint .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close.button, .woocommerce-order-received .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close.button {
+	top: initial;
+	bottom: 20px;
+	right: 20px;
+	background-color: #e98973;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.payment_box.payment_method_simple_twint .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close.button:hover, .woocommerce-order-received .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close.button:hover {
+	color: #fff;
+	background: #6e6d76;
+}
+.payment_box.payment_method_simple_twint .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close:hover, .woocommerce-order-received .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close:hover { 
+	color: #333;
+}
+
+
+
 
