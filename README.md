@@ -25,15 +25,7 @@ Die Zahlungsmöglichkeit mit dem Titel "Bezahlen Sie bequem mit Twint" mit Instr
 
 ### Die Bestätigungsseite (Thank You page) ###
 
-Der obere Teil der angezeigten Bestellbestätigung sieht wie üblich aus:
-
-![simple-twint-screenshot-2](simple-twint-screenshot-2.jpg)
-
-Weiter unten erscheinen die Instruktionen für Twint mit dem zu bezahlenden Betrag sowie der QR-Code (nur der obere Teil angezeigt):
-
-![simple-twint-screenshot-3](simple-twint-screenshot-3.jpg)
-
-Die Kundin kann jetzt den QR-Code einlesen und den korrekten Betrag eingeben und die Zahlung auslösen.
+Die Bestätigungsseite bestätigt die üblichen Bestellinfos und zeigt nochmals den QR-Code für die Zahlung an, falls im vorherigen Schritt der QR-Code nicht gescannt wurde.
 
 ### Was muss der Shop-Manager machen? ###
 
