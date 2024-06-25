@@ -52,4 +52,4 @@ Gehen Sie dann zu "WooCommerce" - "Einstellungen" and aktivieren Sie diese Zahlu
 ## Changelog ##
 
 ### 1.0.0 ###
-First version: tested with Woocommerce 4.2 and WordPress 5.4.1
+First version: tested with Woocommerce 9.0.2 and WordPress 6.5.5
