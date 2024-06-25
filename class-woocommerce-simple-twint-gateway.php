@@ -36,7 +36,7 @@ class WC_Simple_Twint_Gateway extends WC_Payment_Gateway {
 				'title' 		=> __( 'Method Title', 'woocommerce-simple-twint-gateway' ),
 				'type' 			=> 'text',
 				'description' 	=> __( 'This controls the title', 'woocommerce-simple-twint-gateway' ),
-				'default'		=> __( 'Bequeme Ratenzahlung in Monatsraten', 'woocommerce-simple-twint-gateway' ),
+				'default'		=> __( 'Bezahlen Sie bequem mit Twint', 'woocommerce-simple-twint-gateway' ),
 				'desc_tip'		=> true,
 			),
 			'description' => array(
