@@ -3,6 +3,9 @@
 class WC_Simple_Twint_Gateway extends WC_Payment_Gateway {
 
     private $order_status;
+	public $twintinfo;
+	public $qr_code_img;
+	public $hide_text_box;	
 
 	public function __construct(){
 		$this->id = 'simple_twint';
